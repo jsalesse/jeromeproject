@@ -24,6 +24,6 @@ if [ ! -d "${VVV_PATH_TO_SITE}/public_html/wp-admin" ]; then
   
   wp core download --path="${VVV_PATH_TO_SITE}/public_html" --allow-root
   wp core config --dbname="${VVV_SITE_NAME}" --dbuser=wp --dbpass=wp --quiet --allow-root
-  wp core install --url="${VVV_SITE_NAME}.local" --title="premier projet" --admin_user=admin --admin_password=password --admin_email=antoine@firmecreative.com --allow-root
+  wp core install --url="${VVV_SITE_NAME}.local" --title="premier projet" --admin_user=admin --admin_password=password --admin_email=web@firmecreative.com --allow-root
   
 fi
